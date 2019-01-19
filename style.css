@@ -2,6 +2,7 @@ nav {
 text-align: right;
 margin: 1em 0 0 ;
 padding: 1em 0;
+
 }
 
 nav ul{
@@ -19,6 +20,7 @@ nav a {
   font-weight: normal;
   padding: 2em 2em;
   font-size: .80em;
+  color: black;
 }
 
 #carouselExampleIndicators ol li{
@@ -28,4 +30,8 @@ nav a {
 
 .carousel-indicators li{
    border-radius: 100%;
+}
+
+.carousel-inner{
+  height: 500px;
 }

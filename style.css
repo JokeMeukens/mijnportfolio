@@ -21,6 +21,11 @@ nav a {
   font-size: .80em;
 }
 
-.d-block:nth-child(1){
-  background: blue;
+#carouselExampleIndicators ol li{
+  width: 0.5em;
+  height: 0.5em;
+}
+
+.carousel-indicators li{
+   border-radius: 100%;
 }

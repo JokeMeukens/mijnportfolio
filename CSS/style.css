@@ -35,4 +35,10 @@ nav a {
 .carousel-indicators li{
    border-radius: 100%;
 }
+
 /*------------RESUME------------*/
+
+.resume .container{
+  max-width: 80%;
+  background-color: yellow;
+}

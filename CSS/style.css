@@ -38,7 +38,55 @@ nav a {
 
 /*------------RESUME------------*/
 
-.resume .container{
-  max-width: 80%;
-  background-color: yellow;
+.resume.container{
+  margin-top: 6em;
+  text-align: center;
+}
+
+
+/*------------PROJECTEN------------*/
+.projects-container{
+  margin-left:2.2em;
+  margin-right: 2.2em;
+}
+
+.col-sm{
+  margin: 2em;
+  height: 20em;
+  display: flex;
+}
+
+img {
+    width: 100%; /* or any custom size */
+    height: 100%;
+    object-fit: cover;
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  .carousel-inner{
+    height: 500px;
+  }
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  .carousel-inner{
+    height: 500px;
+  }
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  .carousel-inner{
+    height: 500px;
+  }
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  .carousel-inner{
+    height: 500px;
+  }
 }

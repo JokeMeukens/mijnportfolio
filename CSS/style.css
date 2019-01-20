@@ -36,6 +36,10 @@ nav a {
    border-radius: 100%;
 }
 
+.carousel-item img{
+  background-size: cover;
+  background-position: center center;
+}
 /*------------RESUME------------*/
 
 .container{
@@ -89,4 +93,6 @@ img {
   .carousel-inner{
     height: 500px;
   }
+
+
 }
